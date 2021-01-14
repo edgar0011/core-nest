@@ -5,4 +5,8 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
+
+  getDefaultAppMessage(): string {
+    return 'This is defualt app message';
+  }
 }
