@@ -10,8 +10,8 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get(['', '/*'])
-  whatever(): string {
-    return this.appService.getDefaultAppMessage();
-  }
+  // @Get(['', '/*'])
+  // whatever(): string {
+  //   return this.appService.getDefaultAppMessage();
+  // }
 }
