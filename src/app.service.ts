@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getDefaultAppMessage(): string {
-    return 'This is defualt app message';
+    return 'This is default app message';
   }
 }
